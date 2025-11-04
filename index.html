@@ -1,0 +1,762 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway - Sanduíches Frescos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <!-- Logo -->
+                <div class="logo">
+                    <span class="logo-text">SUBWAY</span>
+                </div>
+
+                <!-- Menu Desktop -->
+                <nav class="menu">
+                    <a href="#inicio" class="menu-link">Início</a>
+                    <a href="#cardapio" class="menu-link">Cardápio</a>
+                    <a href="#anatomia" class="menu-link">Monte o Seu</a>
+                    <a href="#lojas-facilidades" class="menu-link">Lojas</a>
+                </nav>
+
+                <!-- Menu Mobile Toggle -->
+                <div class="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+
+            <!-- Menu Mobile -->
+            <div class="mobile-menu">
+                <a href="#inicio" class="mobile-link">Início</a>
+                <a href="#cardapio" class="mobile-link">Cardápio</a>
+                <a href="#anatomia" class="mobile-link">Monte o Seu</a>
+                <a href="#lojas" class="mobile-link">Lojas</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 
+  HERO SECTION - SUBWAY
+  Esta seção apresenta a introdução principal do site
+  Pode alterar: imagem de fundo, textos, botões
+-->
+    <section class="hero" id="inicio">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-line">Sabor que</span>
+                    <span class="title-line highlight">Conquista</span>
+                </h1>
+
+                <p class="hero-subtitle">
+                    Sanduíches frescos, feitos na hora do seu jeito.
+                    Mais de 20 ingredientes para você criar sua combinação perfeita.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#cardapio" class="btn btn-primary">Ver Cardápio</a>
+                    <a href="#anatomia" class="btn btn-secondary">Montar Agora</a>
+                </div>
+            </div>
+
+            <img src="./capa subway.jpg" alt="Sanduíche Subway" class="hero-img">
+
+        </div>
+    </section>
+
+    <!-- 
+  BENEFÍCIOS SECTION - SUBWAY
+  Versão melhorada com 3 cards e título impactante
+  Animações mais elaboradas e design mais moderno
+-->
+    <section class="benefits" id="beneficios">
+        <div class="container">
+            <div class="benefits-header">
+                <h2 class="benefits-title">
+                    <span class="title-main">Não é só um sanduíche,</span>
+                    <span class="title-accent2">é uma experiência</span>
+                </h2>
+                <p class="benefits-subtitle">Descubra o que torna o Subway diferente de tudo que você já experimentou
+                </p>
+            </div>
+
+            <div class="benefits-grid">
+                <!-- Card 1 - Personalização -->
+                <div class="benefit-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="benefit-icon">
+                                <div class="icon-wrapper">
+                                    <span class="icon-emoji">🎨</span>
+                                </div>
+                            </div>
+                            <h3 class="benefit-title">Seu Jeito, Sua Criação</h3>
+                            <p class="benefit-description">
+                                Mais de 20 ingredientes frescos para você ser o chef do próprio sanduíche.
+                            </p>
+                        </div>
+                        <div class="card-back">
+                            <div class="benefit-highlight">Personalização Ilimitada</div>
+                            <ul class="benefit-features">
+                                <li>Escolha seu pão favorito</li>
+                                <li>Seleção de proteínas</li>
+                                <li>Vegetais frescos à vontade</li>
+                                <li>Molhos exclusivos</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+
+                <!-- Card 2 - Ingredientes Frescos -->
+                <div class="benefit-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="benefit-icon">
+                                <div class="icon-wrapper">
+                                    <span class="icon-emoji">🌿</span>
+                                </div>
+                            </div>
+                            <h3 class="benefit-title">Frescor que Você Sente</h3>
+                            <p class="benefit-description">
+                                Ingredientes selecionados diariamente, cortados e preparados na hora.
+                            </p>
+                        </div>
+                        <div class="card-back">
+                            <div class="benefit-highlight">100% Natural</div>
+                            <ul class="benefit-features">
+                                <li>Vegetais frescos todos os dias</li>
+                                <li>Pães assados na loja</li>
+                                <li>Proteínas de qualidade</li>
+                                <li>Zero conservantes</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+
+                <!-- Card 3 - Rápido e Prático -->
+                <div class="benefit-card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <div class="benefit-icon">
+                                <div class="icon-wrapper">
+                                    <span class="icon-emoji">⚡</span>
+                                </div>
+                            </div>
+                            <h3 class="benefit-title">Praticidade que Impressiona</h3>
+                            <p class="benefit-description">
+                                Seu sanduíche perfeito pronto em minutos, sem abrir mão da qualidade.
+                            </p>
+                        </div>
+                        <div class="card-back">
+                            <div class="benefit-highlight">Rápido & Eficiente</div>
+                            <ul class="benefit-features">
+                                <li>Preparo em até 3 minutos</li>
+                                <li>Perfeito para pausas</li>
+                                <li>Pedido pelo app</li>
+                                <li>Retirada expressa</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+  MENU SECTION - SUBWAY
+  Versão final com 9 cards no total
+-->
+    <section class="menu-c" id="cardapio">
+        <div class="container">
+            <div class="menu-layout">
+                <!-- Coluna da Esquerda: Título, Descrição e Botões -->
+                <div class="menu-sidebar">
+                    <div class="menu-header">
+                        <h2 class="menu-title">
+                            <span class="title-line">Nossa Arte</span>
+                            <span class="title-accent3">Em Sanduíches</span>
+                        </h2>
+                        <p class="menu-description">
+                            Cada sanduíche Subway é uma criação única, feita com ingredientes
+                            selecionados e preparada na hora do seu jeito. Descubra uma
+                            experiência de sabor que vai além do convencional.
+                        </p>
+                    </div>
+
+                    <div class="menu-buttons">
+                        <button class="menu-btn">
+                            <span class="btn-icon">🌟</span>
+                            <span class="btn-text">Mais Populares</span>
+                            <span class="btn-hover"></span>
+                        </button>
+
+                        <button class="menu-btn">
+                            <span class="btn-icon">🥬</span>
+                            <span class="btn-text">Low Carb</span>
+                            <span class="btn-hover"></span>
+                        </button>
+
+                        <button class="menu-btn">
+                            <span class="btn-icon">🌱</span>
+                            <span class="btn-text">Vegetarianos</span>
+                            <span class="btn-hover"></span>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Coluna da Direita: Cards -->
+                <div class="menu-cards">
+                    <!-- Card 1 - Frango Empanado -->
+                    <div class="menu-card">
+                        <div class="card-badge">🔥 Mais Vendido</div>
+                        <div class="card-image">
+                            <img src="./imagens/frango empanado.jpg" alt="Frango Empanado" class="card-img">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Frango Empanado</h3>
+                            <p class="card-description">Frango crocante empanado com molho especial</p>
+                            <div class="card-info">
+                                <span class="card-calories">420 cal</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 - Italiano -->
+                    <div class="menu-card">
+                        <div class="card-badge">⭐ Clássico</div>
+                        <div class="card-image">
+                            <img src="./imagens/italianne.jpg" alt="Italiano B.M.T." class="card-img">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Italiano B.M.T.</h3>
+                            <p class="card-description">Pepperoni, salame e presunto com queijo</p>
+                            <div class="card-info">
+                                <span class="card-calories">480 cal</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 - Frango Teriyaki -->
+                    <div class="menu-card">
+                        <div class="card-image">
+                            <img src="./imagens/carne teriyaki.webp" alt="Frango Teriyaki" class="card-img">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Frango Teriyaki</h3>
+                            <p class="card-description">Frango grelhado com molho teriyaki</p>
+                            <div class="card-info">
+                                <span class="card-calories">380 cal</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 - Frango Grelhado -->
+                    <div class="menu-card">
+                        <div class="card-badge">🥬 Low Carb</div>
+                        <div class="card-image">
+                            <img src="./imagens/frango grelhado.jpg" alt="Frango Grelhado" class="card-img">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Frango Grelhado</h3>
+                            <p class="card-description">Frango grelhado com salada verde</p>
+                            <div class="card-info">
+                                <span class="card-calories">320 cal</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 5 - Atum -->
+                    <div class="menu-card">
+                        <div class="card-badge">🥬 Low Carb</div>
+                        <div class="card-image">
+                            <img src="./imagens/atum.jpg" alt="Atum Light" class="card-img">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Atum Light</h3>
+                            <p class="card-description">Atum com cream cheese light</p>
+                            <div class="card-info">
+                                <span class="card-calories">290 cal</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 6 - Veggie Delight -->
+                    <div class="menu-card">
+                        <div class="card-badge">🌱 Vegetariano</div>
+                        <div class="card-image">
+                            <img src="./imagens/vegano.webp" alt="Veggie Delight" class="card-img">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Veggie Delight</h3>
+                            <p class="card-description">Mix de vegetais frescos com queijo</p>
+                            <div class="card-info">
+                                <span class="card-calories">350 cal</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- === NOVOS CARDS ADICIONADOS AQUI === -->
+
+                    <!-- Card 7 - Carne Supreme -->
+                    <div class="menu-card">
+                        <div class="card-badge">🌟 Popular</div>
+                        <div class="card-image">
+                            <img src="./imagens/carne supreme.jpg" alt="Carne Supreme" class="card-img">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Carne Supreme</h3>
+                            <p class="card-description">Blend de carnes especiais grelhadas</p>
+                            <div class="card-info">
+                                <span class="card-calories">450 cal</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 8 - Proteína Vegana -->
+                    <div class="menu-card">
+                        <div class="card-badge">🌱 Vegetariano</div>
+                        <div class="card-image">
+                            <img src="./imagens/proteina-vegana.jpg" alt="Proteína Vegana" class="card-img">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Proteína Vegana</h3>
+                            <p class="card-description">Proteína vegetal com temperos especiais</p>
+                            <div class="card-info">
+                                <span class="card-calories">330 cal</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 9 - Frango Defumado -->
+                    <div class="menu-card">
+                        <div class="card-badge">🥬 Low Carb</div>
+                        <div class="card-image">
+                            <img src="./imagens/frango defumado.webp" alt="Frango Defumado" class="card-img">
+                        </div>
+                        <div class="card-content">
+                            <h3 class="card-title">Frango Defumado</h3>
+                            <p class="card-description">Frango defumado com molho barbecue</p>
+                            <div class="card-info">
+                                <span class="card-calories">340 cal</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- === FIM DOS NOVOS CARDS === -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+  SANDWICH ANATOMY SECTION - SUBWAY
+  Apresentação visual das opções de ingredientes em formato de anatomia
+  Design educativo e visualmente atraente, sem JavaScript
+-->
+    <section class="sandwich-anatomy" id="anatomia">
+        <div class="container">
+            <div class="anatomy-header">
+                <h2 class="anatomy-title">
+                    <span class="title-line">A Anatomia do</span>
+                    <span class="title-accent">Sanduíche Perfeito</span>
+                </h2>
+                <p class="anatomy-subtitle">Descubra todas as possibilidades de criação com nossos ingredientes frescos
+                </p>
+            </div>
+
+            <div class="anatomy-visual">
+                <!-- Sanduíche em Camadas -->
+                <div class="sandwich-layers">
+
+                    <!-- Camada 1: Pães (Base) -->
+                    <div class="layer layer-breads">
+                        <div class="layer-header">
+                            <h3 class="layer-title">Pães Frescos</h3>
+                            <div class="layer-badge">1</div>
+                        </div>
+                        <div class="ingredients-grid">
+                            <div class="ingredient-card">
+                                <div class="ingredient-icon">🍞</div>
+                                <h4 class="ingredient-name">Italiano</h4>
+                                <p class="ingredient-calories">200 cal</p>
+                            </div>
+                            <div class="ingredient-card">
+                                <div class="ingredient-icon">🥖</div>
+                                <h4 class="ingredient-name">Integral</h4>
+                                <p class="ingredient-calories">180 cal</p>
+                            </div>
+                            <div class="ingredient-card">
+                                <div class="ingredient-icon">🧀</div>
+                                <h4 class="ingredient-name">Parmesão Oregano</h4>
+                                <p class="ingredient-calories">220 cal</p>
+                            </div>
+                            <div class="ingredient-card">
+                                <div class="ingredient-icon">🌾</div>
+                                <h4 class="ingredient-name">9 Grãos</h4>
+                                <p class="ingredient-calories">190 cal</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Camada 5: Molhos (Topo) -->
+                <div class="layer layer-sauces">
+                    <div class="layer-header">
+                        <h3 class="layer-title">Molhos & Temperos</h3>
+                        <div class="layer-badge">2</div>
+                    </div>
+                    <div class="ingredients-grid">
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">⚪</div>
+                            <h4 class="ingredient-name">Maionese</h4>
+                            <p class="ingredient-calories">50 cal</p>
+                        </div>
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">🟡</div>
+                            <h4 class="ingredient-name">Mostarda</h4>
+                            <p class="ingredient-calories">20 cal</p>
+                        </div>
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">🔴</div>
+                            <h4 class="ingredient-name">Ketchup</h4>
+                            <p class="ingredient-calories">30 cal</p>
+                        </div>
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">🥗</div>
+                            <h4 class="ingredient-name">Ceasar</h4>
+                            <p class="ingredient-calories">40 cal</p>
+                        </div>
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">🟤</div>
+                            <h4 class="ingredient-name">Barbecue</h4>
+                            <p class="ingredient-calories">45 cal</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Camada 4: Saladas -->
+                <div class="layer layer-salads">
+                    <div class="layer-header">
+                        <h3 class="layer-title">Saladas Frescas</h3>
+                        <div class="layer-badge">3</div>
+                    </div>
+                    <div class="ingredients-grid">
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">🥬</div>
+                            <h4 class="ingredient-name">Alface</h4>
+                            <p class="ingredient-calories">5 cal</p>
+                        </div>
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">🍅</div>
+                            <h4 class="ingredient-name">Tomate</h4>
+                            <p class="ingredient-calories">10 cal</p>
+                        </div>
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">🧅</div>
+                            <h4 class="ingredient-name">Cebola</h4>
+                            <p class="ingredient-calories">8 cal</p>
+                        </div>
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">🫑</div>
+                            <h4 class="ingredient-name">Pimentão</h4>
+                            <p class="ingredient-calories">12 cal</p>
+                        </div>
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">🫒</div>
+                            <h4 class="ingredient-name">Azeitonas</h4>
+                            <p class="ingredient-calories">15 cal</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Camada 3: Queijos -->
+                <div class="layer layer-cheeses">
+                    <div class="layer-header">
+                        <h3 class="layer-title">Queijos Selecionados</h3>
+                        <div class="layer-badge">4</div>
+                    </div>
+                    <div class="ingredients-grid">
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">🧀</div>
+                            <h4 class="ingredient-name">Mussarela</h4>
+                            <p class="ingredient-calories">80 cal</p>
+                        </div>
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">🍯</div>
+                            <h4 class="ingredient-name">Prato</h4>
+                            <p class="ingredient-calories">90 cal</p>
+                        </div>
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">🟠</div>
+                            <h4 class="ingredient-name">Cheddar</h4>
+                            <p class="ingredient-calories">100 cal</p>
+                        </div>
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">⚪</div>
+                            <h4 class="ingredient-name">Suíço</h4>
+                            <p class="ingredient-calories">85 cal</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Camada 2: Recheios -->
+                <div class="layer layer-fillings">
+                    <div class="layer-header">
+                        <h3 class="layer-title">Recheios Principais</h3>
+                        <div class="layer-badge">5</div>
+                    </div>
+                    <div class="ingredients-grid">
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">🍗</div>
+                            <h4 class="ingredient-name">Frango Grelhado</h4>
+                            <p class="ingredient-calories">150 cal</p>
+                        </div>
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">🥩</div>
+                            <h4 class="ingredient-name">Italiano B.M.T.</h4>
+                            <p class="ingredient-calories">180 cal</p>
+                        </div>
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">🐟</div>
+                            <h4 class="ingredient-name">Atum</h4>
+                            <p class="ingredient-calories">120 cal</p>
+                        </div>
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">🥦</div>
+                            <h4 class="ingredient-name">Veggie Delight</h4>
+                            <p class="ingredient-calories">100 cal</p>
+                        </div>
+                        <div class="ingredient-card">
+                            <div class="ingredient-icon">🍖</div>
+                            <h4 class="ingredient-name">Carne Supreme</h4>
+                            <p class="ingredient-calories">170 cal</p>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- CTA Final -->
+                <div class="anatomy-cta">
+                    <h3 class="cta-title">Mais de 2.000 combinações possíveis!</h3>
+                    <p class="cta-subtitle">Cada sanduíche é único como você</p>
+                    <a href="#cardapio" class="cta-button">
+                        <span class="button-text">Explorar Cardápio</span>
+                        <span class="button-icon">→</span>
+                    </a>
+                </div>
+            </div>
+    </section>
+
+    <!-- SEÇÃO LOJAS & FACILIDADES -->
+    <section id="lojas-facilidades" class="lojas-facilidades">
+        <div class="container">
+            <h2>Lojas & Facilidades</h2>
+            <p class="intro">Conheça todas as comodidades que preparamos para tornar sua experiência ainda mais especial
+            </p>
+
+            <div class="menu-sidebar">
+                <div class="menu-header">
+                    <h2 class="menu-title">
+                        <span class="title-line">Nossa Arte</span>
+                        <span class="title-accent3">Em Sanduíches</span>
+                    </h2>
+                    <p class="menu-description">
+                        Cada sanduíche Subway é uma criação única, feita com ingredientes
+                        selecionados e preparada na hora do seu jeito. Descubra uma
+                        experiência de sabor que vai além do convencional.
+                    </p>
+                </div>
+
+                <div class="menu-buttons">
+                    <button class="menu-btn">
+                        <span class="btn-icon">📍</span>
+                        <span class="btn-text">Localização Estratégica</span>
+                        <span class="btn-hover"></span>
+                    </button>
+
+                    <button class="menu-btn">
+                        <span class="btn-icon">📱</span>
+                        <span class="btn-text">App Exclusivo</span>
+                        <span class="btn-hover"></span>
+                    </button>
+
+                    <button class="menu-btn">
+                        <span class="btn-icon">⏰</span>
+                        <span class="btn-text">Horário Estendido</span>
+                        <span class="btn-hover"></span>
+                    </button>
+
+                    <button class="menu-btn">
+                        <span class="btn-icon">🎁</span>
+                        <span class="btn-text">Programa de Fidelidade</span>
+                        <span class="btn-hover"></span>
+                    </button>
+
+                </div>
+            </div>
+
+
+
+
+
+            <div class="como-comprar">
+                <h3>Como Comprar</h3>
+                <div class="passos-compra">
+                    <div class="passo">
+                        <div class="passo-numero">1</div>
+                        <h4>Escolha</h4>
+                        <p>Visite nossa loja física, use o drive-thru ou faça pedido pelo app</p>
+                    </div>
+
+                    <div class="passo">
+                        <div class="passo-numero">2</div>
+                        <h4>Monte</h4>
+                        <p>Personalize seu sanduíche com os ingredientes que você mais ama</p>
+                    </div>
+
+                    <div class="passo">
+                        <div class="passo-numero">3</div>
+                        <h4>Finalize</h4>
+                        <p>Escolha sua forma de pagamento preferida e retire seu pedido</p>
+                    </div>
+
+                    <div class="passo">
+                        <div class="passo-numero">4</div>
+                        <h4>Aproveite</h4>
+                        <p>Saboreie seu sanduíche fresco e perfeito, feito especialmente para você</p>
+                    </div>
+                </div>
+            </div>
+
+            <a href="#contato" class="btn-destaque">Encontre a Loja Mais Próxima</a>
+        </div>
+    </section>
+
+    <!-- FOOTER PROFISSIONAL -->
+    <footer class="footer-profissional" id="contato">
+        <!-- Elementos Decorativos -->
+        <div class="footer-decorativo footer-decorativo-1">🥪</div>
+        <div class="footer-decorativo footer-decorativo-2">🍴</div>
+
+        <div class="footer-content">
+            <!-- Coluna 1: Brand -->
+            <div class="footer-col footer-brand">
+                <div class="footer-logo">Subway Annezinha e Nicollynha</div>
+                <p class="footer-desc">
+                    Há mais de 10 anos servindo os melhores sanduíches de Raposos.
+                    Comprometidos com qualidade, sabor e a satisfação de cada cliente.
+                </p>
+                <div class="footer-social">
+                    <a href="#" class="social-icon" aria-label="Instagram">
+                        📷
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Facebook">
+                        📘
+                    </a>
+                    <a href="#" class="social-icon" aria-label="WhatsApp">
+                        💚
+                    </a>
+                    <a href="#" class="social-icon" aria-label="Twitter">
+                        🐦
+                    </a>
+                </div>
+            </div>
+
+            <!-- Coluna 2: Links Rápidos -->
+            <div class="footer-col">
+                <h3>Links Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="#hero"><i>▶</i> Início</a></li>
+                    <li><a href="#personalize"><i>▶</i> Monte o Seu</a></li>
+                    <li><a href="#qualidade"><i>▶</i> Nossa Qualidade</a></li>
+                    <li><a href="#lojas-facilidades"><i>▶</i> Lojas & Facilidades</a></li>
+                    <li><a href="#contato"><i>▶</i> Contato</a></li>
+                </ul>
+            </div>
+
+
+            <!-- Coluna 3: Contato -->
+            <div class="footer-col">
+                <h3>Contato & Localização</h3>
+                <ul class="contact-info">
+                    <li>
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-text">
+                            <strong>Telefone</strong>
+                            (31) 99999-9999
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-text">
+                            <strong>Email</strong>
+                            contato@subwayannezinhaenicollynha.com
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-text">
+                            <strong>Endereço</strong>
+                            Rua dos Sabores, 123<br>
+                            Centro - Raposos, MG
+                        </div>
+                    </li>
+                    <li>
+                        <div class="contact-icon">⏰</div>
+                        <div class="contact-text">
+                            <strong>Horário</strong>
+                            Seg à Dom: 10h às 23h
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Coluna 4: Newsletter -->
+            <div class="footer-col">
+                <h3>Newsletter</h3>
+                <div class="footer-newsletter">
+                    <p class="newsletter-text">
+                        Cadastre-se e receba promoções exclusivas, novidades do cardápio e ofertas especiais!
+                    </p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Seu melhor email" required>
+                        <button type="submit" class="newsletter-btn">Cadastrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer Bottom -->
+        <div class="footer-bottom">
+            <div class="footer-bottom-content">
+                <div class="copyright">
+                    &copy; 2025 Subway Annezinha e Nicollynha. Todos os direitos reservados.
+                </div>
+                <div class="footer-payments">
+                    <span class="payment-text">Aceitamos:</span>
+                    <div class="payment-methods">
+                        <div class="payment-icon">💳</div>
+                        <div class="payment-icon">PIX</div>
+                        <div class="payment-icon">$</div>
+                        <div class="payment-icon">VR</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
